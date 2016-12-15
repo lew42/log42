@@ -1,11 +1,11 @@
 // var TestFramework = require("test/framework");
 // var test = TestFramework.test;
 var test = require("test42");
-var is = require("is");
+var is = require("util42").is;
 var $ = require("jquery");
 var assert = console.assert.bind(console);
 
-var logger = require("log42/logger2");
+var logger = require("./logger2");
 
 // var Mod1 = require("mod42/Mod1");
 var Mod2 = require("mod42/Mod2");

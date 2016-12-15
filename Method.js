@@ -1,6 +1,6 @@
 var Mod1 = require("mod42/Mod1");
-var is = require("is");
-var logger = require("log42");
+var is = require("util42").is;
+var logger = require("./");
 
 var STRIP_COMMENTS = /((\/\/.*$)|(\/\*[\s\S]*?\*\/))/mg;
 var ARGUMENT_NAMES = /([^\s,]+)/g;
@@ -22,7 +22,7 @@ var Method = module.exports = Mod1.extend({
 	enabled: true,
 	disabled: false,
 	expand: true,
-	disable_return: true,
+	// disable_return: true,
 	args: "names",
 	max_obj_props: 2,
 	// argLabel: "",

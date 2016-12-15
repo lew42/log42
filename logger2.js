@@ -1,4 +1,4 @@
-var is = require("is");
+var is = require("util42").is;
 
 var console_methods = ["log", "group", "debug", "trace", "error", "warn", "info"];
 
