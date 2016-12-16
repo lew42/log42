@@ -11,5 +11,8 @@
   "dependencies": {
     "mod42": "^1.0.0",
     "util42": "^1.0.1"
+  },
+  "devDependencies": {
+    "jquery": "^3.1.1"
   }
 }
